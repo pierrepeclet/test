@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="bar" extends="struts-default">
+		<action name="detailsBar" class="fr.cursusSopra.action.DetailsBarAction"
+			method="execute">
+			<result name="success">views/details/DetailsBar.jsp</result>
+		</action>
+
+	</package>
+</struts>
+		

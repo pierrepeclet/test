@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="eval" extends="struts-default">
+
+		<action name="addEval" class="fr.cursusSopra.action.AddEvalAction"
+			method="execute">
+			<result name="success" type="redirectAction">retourIndex</result>
+		</action>
+
+		<action name="formAddEval" class="fr.cursusSopra.action.FormAddEvalAction"
+			method="execute">
+			<result name="success">/views/eval/AddEval.jsp</result>
+		</action>
+
+	</package>
+</struts>

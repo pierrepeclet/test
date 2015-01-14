@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="creation" extends="struts-default">
+		<action name="creationBar" class="fr.cursusSopra.action.CreationBarAction"
+			method="accessFormCreation">
+			<result name="success">views/creation/CreationBar.jsp</result>
+		</action>
+		<action name="addBar" class="fr.cursusSopra.action.CreationBarAction"
+			method="execute">
+			<result name="success" type="redirectAction">retourIndex</result>
+			<result name="error" type="redirectAction">creationBar</result>
+		</action>
+	</package>
+</struts>

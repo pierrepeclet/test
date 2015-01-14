@@ -1,0 +1,9 @@
+INDEX VERSION 1.127
+C:\Users\Alternative\Desktop\CursusSopra\testgit\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\897669201.index
+\Glougloubar\src
+C:\Users\Alternative\Desktop\CursusSopra\testgit\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1157609062.index
+\Glougloubar\src
+C:\Users\Alternative\Desktop\CursusSopra\testgit\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2367344175.index
+\Glougloubar\src
+C:\Users\Alternative\Desktop\CursusSopra\testgit\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4268028570.index
+\Glougloubar\src

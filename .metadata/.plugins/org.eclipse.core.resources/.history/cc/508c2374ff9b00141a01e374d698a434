@@ -12,7 +12,6 @@
 <title>Création bar</title>
 </head>
 <body>
-<p>ajout pour test git source tree eclipse, le tryptique gagnant<p>
 	<h1 class="col-md-offset-1">Création bar</h1>
 	<div class="row">
 		<div class="col-md-1"></div>
